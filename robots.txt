@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cd24p7sr7j-ux.github.io/Fresh-Nest/sitemap.xml
