@@ -15,19 +15,21 @@
 
   <!-- NAVIGATION -->
   <header class="navbar">
-    <a href="#home" class="fresh-nest-logo" aria-label="Fresh Nest Home">
-  <span class="fresh-logo-icon">
-    <span class="logo-shield"></span>
-    <span class="logo-leaf logo-leaf-1"></span>
-    <span class="logo-leaf logo-leaf-2"></span>
-    <span class="logo-spark">✦</span>
-  </span>
 
-  <span class="fresh-logo-name">
-    <strong>FRESH NEST</strong>
-    <small>Fresh Home. Fresh Feel.</small>
-  </span>
-</a>
+    <!-- FRESH NEST LOGO -->
+    <a href="#home" class="fresh-nest-logo" aria-label="Fresh Nest Home">
+      <span class="fresh-logo-icon">
+        <span class="logo-shield"></span>
+        <span class="logo-leaf logo-leaf-1"></span>
+        <span class="logo-leaf logo-leaf-2"></span>
+        <span class="logo-spark">✦</span>
+      </span>
+
+      <span class="fresh-logo-name">
+        <strong>FRESH NEST</strong>
+        <small>Fresh Home. Fresh Feel.</small>
+      </span>
+    </a>
 
     <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
       <span></span>
@@ -43,6 +45,7 @@
       <a href="#booking">Book</a>
       <a href="#contact">Contact</a>
     </nav>
+
   </header>
 
 
@@ -308,32 +311,39 @@
 
     <!-- BEFORE / AFTER -->
     <section class="section results-section">
+
       <div class="section-heading reveal">
         <span class="eyebrow">THE FRESH NEST DIFFERENCE</span>
         <h2>See the <span>difference.</span></h2>
-        <p>Use your real Fresh Nest before-and-after photos here as you build your portfolio.</p>
+        <p>From visibly dirty to fresh and clean.</p>
       </div>
 
       <div class="results-grid">
 
+        <!-- BEFORE -->
         <div class="result-card reveal">
-          <div class="result-image">
+          <div class="result-image before-image">
             <img
               src="images/before-sofa.jpg"
-              alt="Sofa before Fresh Nest cleaning"
+              alt="Dirty stained sofa before Fresh Nest cleaning"
               onerror="this.src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=900&q=85'"
             >
+
+            <div class="before-dirt-overlay"></div>
+
             <span>BEFORE</span>
           </div>
         </div>
 
+        <!-- AFTER -->
         <div class="result-card reveal">
-          <div class="result-image">
+          <div class="result-image after-image">
             <img
               src="images/after-sofa.jpg"
-              alt="Sofa after Fresh Nest cleaning"
+              alt="Clean sofa after Fresh Nest cleaning"
               onerror="this.src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=900&q=85'"
             >
+
             <span>AFTER</span>
           </div>
         </div>
@@ -480,22 +490,28 @@
 
   <!-- FOOTER -->
   <footer>
+
     <div class="footer-main">
 
       <div class="footer-brand">
-        <a href="#home" class="logo">
-          <span class="logo-mark">
-            <span></span>
-            <span></span>
-            <span></span>
+
+        <!-- SAME NEW LOGO IN FOOTER -->
+        <a href="#home" class="fresh-nest-logo" aria-label="Fresh Nest Home">
+          <span class="fresh-logo-icon">
+            <span class="logo-shield"></span>
+            <span class="logo-leaf logo-leaf-1"></span>
+            <span class="logo-leaf logo-leaf-2"></span>
+            <span class="logo-spark">✦</span>
           </span>
-          <span>
-            <strong>FRESH</strong>
-            <b>NEST</b>
+
+          <span class="fresh-logo-name">
+            <strong>FRESH NEST</strong>
+            <small>Fresh Home. Fresh Feel.</small>
           </span>
         </a>
 
         <p>Fresh Home. Fresh Feel.</p>
+
       </div>
 
       <div class="footer-links">
@@ -511,6 +527,7 @@
       <span>© <span id="year"></span> Fresh Nest. All rights reserved.</span>
       <span>Professional Cleaning Services</span>
     </div>
+
   </footer>
 
 
@@ -526,5 +543,6 @@
 
 
   <script src="script.js"></script>
+
 </body>
 </html>
